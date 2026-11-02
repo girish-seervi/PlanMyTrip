@@ -1,0 +1,21 @@
+{
+  "name": "planmytrip-monorepo",
+  "version": "1.0.0",
+  "description": "PlanMyTrip – Smart Trip Planner & Expense Splitter",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "travel-planner",
+    "nvidia-nim",
+    "nemotron",
+    "leaflet",
+    "expense-splitter",
+    "splitwise"
+  ],
+  "author": "PlanMyTrip",
+  "license": "MIT"
+}
